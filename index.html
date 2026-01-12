@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <title>PasswordGame</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="background-blobs"></div>
+    <div class="container">
+        <header>
+            <h1>PasswordGame</h1>
+            <p class="subtitle">Hard Mode</p>
+        </header>
+
+        <div class="main-card">
+            <div class="input-wrapper">
+                <label for="password-input">Введите ваш пароль</label>
+                <textarea id="password-input" spellcheck="false" placeholder="Начни писать..."></textarea>
+                <div id="char-count">0</div>
+            </div>
+
+            <div id="sponsors-line">
+                <div class="sponsor-box" data-sponsor="raid">
+                    <img src="./img/capsule_616x353.jpg" alt="Raid">
+                </div>
+                <div class="sponsor-box" data-sponsor="arohub">
+                    <img src="./img/AroHub.png" alt="AroHub">
+                </div>
+                <div class="sponsor-box" data-sponsor="1xbet">
+                    <img src="./img/0x0.png" alt="1xBet">
+                </div>
+            </div>
+
+            <div id="rules-container"></div>
+        </div>
+
+        <footer>
+            <div class="site-name">By: Varkoren</div>
+        </footer>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
