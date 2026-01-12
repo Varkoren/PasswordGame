@@ -3,7 +3,7 @@ const rulesContainer = document.getElementById('rules-container');
 const charCount = document.getElementById('char-count');
 const bgBlobs = document.querySelector('.background-blobs');
 
-const bgMusic = new Audio('vivaldi-vremena-goda-zima.mp3');
+const bgMusic = new Audio('music.mp3');
 bgMusic.loop = true;
 
 const getMoonPhase = () => {
@@ -121,4 +121,5 @@ function update() {
 }
 
 input.addEventListener('input', update);
+
 update();
